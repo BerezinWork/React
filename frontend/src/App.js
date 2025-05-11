@@ -1,9 +1,9 @@
-import FirstComponent from "./components/FirstComponent.jsx";
+import Todo from "./pages/todo";
 
 function App() {
   return (
     <div>
-      <FirstComponent/>
+        <Todo />
     </div>
   );
 }

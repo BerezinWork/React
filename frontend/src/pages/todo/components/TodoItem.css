@@ -1,0 +1,9 @@
+.todoItem {
+    border: 1px solid #000;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
