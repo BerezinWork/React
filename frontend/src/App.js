@@ -1,9 +1,11 @@
+import FunctionalCounter from './components/FunctionalCounter';
 
 function App() {
-  return (
-    <div>
 
-    </div>
+    return (
+        <div>
+            <FunctionalCounter />
+        </div>
   );
 }
 
