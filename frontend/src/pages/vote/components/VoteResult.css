@@ -1,0 +1,29 @@
+.resultPreloader {
+    padding-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.resultContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resultBody div {
+    padding-top: 10px;
+    font-size: 20px;
+}
+.resultBody img {
+    max-width: 100%;
+}
+.resultImg {
+    width: 200px;
+}

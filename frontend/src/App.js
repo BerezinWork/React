@@ -1,9 +1,9 @@
-import FirstComponent from "./components/FirstComponent.jsx";
+import Vote from "./pages/vote";
 
 function App() {
   return (
     <div>
-      <FirstComponent/>
+        <Vote />
     </div>
   );
 }
