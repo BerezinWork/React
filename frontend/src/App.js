@@ -1,12 +1,13 @@
-import FunctionalCounter from './components/FunctionalCounter';
+import Todo from "./pages/todo";
+import FunctionalCounter from "./components/FunctionalCounter";
 
 function App() {
-
     return (
-        <div>
+        <>
             <FunctionalCounter />
-        </div>
-  );
+            <Todo />
+        </>
+    );
 }
 
 export default App;
