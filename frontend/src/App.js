@@ -1,8 +1,10 @@
+import Vote from "./pages/vote";
 
 function App() {
   return (
-    <div>
-    </div>
+      <div>
+        <Vote />
+      </div>
   );
 }
 

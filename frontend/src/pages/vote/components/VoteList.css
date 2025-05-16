@@ -1,0 +1,26 @@
+.voteList {
+    display: flex;
+
+    gap: 40px;
+}
+
+.resultButton {
+    transition: all 0.3s ease 0s;
+
+    padding: 15px;
+    background-color: aquamarine;
+
+    border-radius: 10px;
+}
+.buttonsContainer:not(:first-child){
+    margin-top: 25px;
+}
+.resultButton:hover {
+    transform: scale(1.1);
+}
+
+.buttonsContainer {
+    display: flex;
+    gap: 20px;
+
+}
