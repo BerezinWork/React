@@ -1,9 +1,14 @@
+import { useContext } from "react";
+
+import { VoteContext } from "../../../contexts/VoteContext";
+
 import "./VoteItem.css";
 
 export default function VoteItem({
     smile = {},
-    toggleSmile = () => {}
 }) {
+    const { toggleSmile } = useContext(VoteContext);
+
     const handleToggle = () => {
         toggleSmile(smile.id);
     }

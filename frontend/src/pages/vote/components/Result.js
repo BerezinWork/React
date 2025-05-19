@@ -1,6 +1,12 @@
+import { useContext } from "react";
+
+import { VoteContext } from "../../../contexts/VoteContext";
+
 import "./VoteResult.css";
 
-export default function VoteResult({winner = {}}) {
+export default function VoteResult() {
+    const { winner } = useContext(VoteContext);
+
     if(!winner) {
         return <div className="resultPreloader">Press the button to get the winner!</div>;
     } else if (!winner.votes) {

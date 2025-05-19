@@ -1,13 +1,18 @@
+import { useContext } from "react";
+
+import { VoteContext } from "../../../contexts/VoteContext";
+
 import VoteItem from "./Item";
 
 import "./VoteList.css";
 
-export default function VoteList({
-    smiles = [],
-    toggleSmile = () => {},
-    findWinner = () => {},
-    clearVotes = () => {}
-}) {
+export default function VoteList() {
+    const {
+        smiles = [],
+        toggleSmile = () => {},
+        findWinner = () => {},
+        clearVotes = () => {}
+    } = useContext(VoteContext);
 
     return (
         <>
